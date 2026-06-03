@@ -34,7 +34,7 @@ const Hero = () => {
               </h1>
               <h1>That Inspire</h1>
               <h1>and Perform</h1>
-              <div className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+              <div className="text-white-50 md:text-xl relative z-10 pointer-events-none mt-7">
                 <p>
                   Hi, I'm John Lorens, a developer passionate about building
                 </p>
