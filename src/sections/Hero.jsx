@@ -1,8 +1,9 @@
 import { words } from "../constants/index.js";
-import Button from "../components/Button";
+import Button from "../components/Button.jsx";
 import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import AnimatedCounter from "../components/AnimatedCounter.jsx";
 
 const Hero = () => {
   useGSAP(() => {
@@ -43,19 +44,17 @@ const Hero = () => {
               </h1>
               <h1>That Inspire</h1>
               <h1>and Perform</h1>
-              <div className="text-white-50 md:text-xl relative z-10 pointer-events-none mt-7">
-                <p>
-                  Hi, I'm John Lorens, a developer passionate about building
-                </p>
-                <p>modern web applications and transforming ideas</p>
-                <p>into digital solutions that make an impact.</p>
-              </div>
-              <Button
-                className="md:w-80 md:h-16 w-80 h-12 mt-7"
-                id="button"
-                text="See my work"
-              />
             </div>
+            <div className="text-white-50 md:text-xl relative z-10 pointer-events-none mt-7">
+              <p>Hi, I'm John Lorens, a developer passionate about building</p>
+              <p>modern web applications and transforming ideas</p>
+              <p>into digital solutions that make an impact.</p>
+            </div>
+            <Button
+              className="md:w-80 md:h-16 w-80 h-12 mt-7"
+              id="button"
+              text="See my work"
+            />
           </div>
         </header>
         <figure>
@@ -64,7 +63,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
-      
+      <AnimatedCounter />
     </section>
   );
 };
