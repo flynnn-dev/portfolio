@@ -5,7 +5,7 @@ const CountUp = CountUpModule.default;
 
 const AnimatedCounter = () => {
   return (
-    <div className="padding-x-lg xl:mt-0 mt-32" id="counter">
+    <div className="padding-x-lg xl:mt-0 mt-30" id="counter">
       <div className="mx-auto grid-4-cols">
         {counterItems.map((item) => (
           <div className="bg-zinc-900 rounded-lg p-10 flex-col justify-center">
