@@ -9,7 +9,23 @@ html,
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: black;
+  background:
+    radial-gradient(
+      circle at 15% 15%,
+      rgba(59, 130, 246, 0.15),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(14, 165, 233, 0.12),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(255, 255, 255, 0.03),
+      transparent 50%
+    ),
+    #0a0a0a;
   color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
