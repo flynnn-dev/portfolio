@@ -20,12 +20,13 @@ const ExperienceSection = () => {
         scrollTrigger: {
           trigger: card,
           start: "top center",
-          end: "50% center",
-        onUpdate: (self) => {
-            gsap.to(".timeline", {
-              scaleY: 1 - self.progress
-            })
-        },
+          end: "70% center",
+          scrub: true,
+          onUpdate: (self) => {
+            gsap.set(".timeline", {
+              scaleY: 1 - self.progress,
+            });
+          },
         },
       });
     });
