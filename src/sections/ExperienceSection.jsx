@@ -45,7 +45,7 @@ const ExperienceSection = () => {
                       <img
                         src={card.imgPath}
                         alt={card.title}
-                        className="size-10 w-60 h-15"
+                        className="w-50 h-12"
                       />
                     </div>
                   </GlowCard>
