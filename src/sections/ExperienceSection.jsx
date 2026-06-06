@@ -20,7 +20,7 @@ const ExperienceSection = () => {
         scrollTrigger: {
           trigger: card,
           start: "top center",
-          end: "70% center",
+          end: "50% center",
         onUpdate: (self) => {
             gsap.to(".timeline", {
               scaleY: 1 - self.progress
