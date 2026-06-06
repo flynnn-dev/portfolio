@@ -152,7 +152,7 @@ const expCards = [
     imgPath: "images/exp1.png",
     logoPath: "images/logo1.png",
     title: "Frontend Developer",
-    date: "May 2026 - Present",
+    date: "🗓️ May 2026 - Present",
     responsibilities: [
       "Built reusable and scalable UI components using React.",
       "Managed application state with modern React hooks.",
@@ -165,7 +165,7 @@ const expCards = [
     imgPath: "images/exp2.png",
     logoPath: "images/logo2.png",
     title: "Backend Developer",
-    date: "November 2025 - Present",
+    date: "🗓️ November 2025 - Present",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
@@ -178,7 +178,7 @@ const expCards = [
     imgPath: "images/exp3.png",
     logoPath: "images/logo3.png",
     title: "Server",
-    date: "August 2025 - Present",
+    date: "🗓️ August 2025 - Present",
     responsibilities: [
       "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
       "Improved app performance and user experience through code optimization and testing.",
