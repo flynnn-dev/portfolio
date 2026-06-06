@@ -14,7 +14,7 @@ const NavBar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, [])
     return (
-            <header className={`navbar ${scroll ? "scrolled" : "not-scrolled"}`}>
+            <header className={`navbar ${scroll ? "scrolled" : ""}`}>
                 <div className="inner">
                     <a href="#hero" className="logo">
                         JL | Flynnn-dev
