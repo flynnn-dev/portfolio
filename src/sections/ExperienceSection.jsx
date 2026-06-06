@@ -21,6 +21,11 @@ const ExperienceSection = () => {
           trigger: card,
           start: "top center",
           end: "70% center",
+        onUpdate: (self) => {
+            gsap.to(".timeline", {
+              scaleY: 1 - self.progress
+            })
+        },
         },
       });
     });
@@ -53,12 +58,12 @@ const ExperienceSection = () => {
                 <div className="xl:w-4/6">
                   <div className="flex items-start">
                     <div className="timeline-wrapper">
-                      <div className="timeline" />
+                      <div className="timeline " />
                       <div className="gradient-line w-1 h-full" />
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
-                        <img src={card.logoPath} alt="logo" />
+                        <img src={card.logoPath} alt="logo" className="w-12 h-12" />
                       </div>
                       <div className="font-semibold text-3xl">
                         <h1>{card.title}</h1>
