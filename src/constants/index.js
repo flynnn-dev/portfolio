@@ -151,7 +151,7 @@ const expCards = [
       "React is my primary frontend framework for building responsive and interactive web applications. I use component-based architecture, hooks, and modern development practices to create clean and maintainable user interfaces.",
     imgPath: "images/exp1.png",
     logoPath: "images/logo1.png",
-    title: "Frontend Developer",
+    title: "Frontend",
     date: "🗓️ May 2026 - Present",
     responsibilities: [
       "Built reusable and scalable UI components using React.",
@@ -164,7 +164,7 @@ const expCards = [
         "Laravel is the framework I use to build the backend of web applications. It helps me create secure, organized, and reliable systems for handling data, users, and website functionality.",
     imgPath: "images/exp2.png",
     logoPath: "images/logo2.png",
-    title: "Backend Developer",
+    title: "Backend",
     date: "🗓️ November 2025 - Present",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
