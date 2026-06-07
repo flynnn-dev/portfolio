@@ -19,16 +19,26 @@ const ExperienceSection = () => {
         ease: "power2.inOut",
         scrollTrigger: {
           trigger: card,
-          start: "top center",
-          end: "70% center",
-          onUpdate: (self) => {
-            gsap.to(".timeline", {
-              scaleY: 1 - self.progress,
-            });
-          },
+          start: "top 80%",
         },
       });
     });
+
+    gsap.to(".timeline", {
+      transformOrigin: "bottom bottom ",
+      ease: "power1.inOut",
+      scrollTrigger: {
+        trigger: ".timeline",
+        start: "top center",
+        end: "70% center",
+        onUpdate: (self) => {
+          gsap.to(".timeline",{
+            scaleY: 1 -self.progress
+          })
+        }
+      }
+
+    })
   }, []);
   return (
     <section
