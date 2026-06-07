@@ -20,7 +20,6 @@ const ExperienceSection = () => {
         scrollTrigger: {
           trigger: card,
           start: "top 80%",
-          scrub: true,
         },
       });
     });
@@ -48,7 +47,6 @@ const ExperienceSection = () => {
         scrollTrigger: {
           trigger: text,
           start: "top 60%",
-          scrub: true,
         },
       });
     });
