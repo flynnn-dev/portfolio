@@ -32,12 +32,12 @@ const ExperienceSection = () => {
         start: "top center",
         end: "70% center",
         onUpdate: (self) => {
-          gsap.to(".timeline",{
-            scaleY: 1 -self.progress
-          })
-        }
-      }
-    })
+          gsap.to(".timeline", {
+            scaleY: 1 - self.progress,
+          });
+        },
+      },
+    });
     gsap.utils.toArray(".expText ").forEach((text) => {
       gsap.from(text, {
         xPercent: 0,
@@ -84,7 +84,11 @@ const ExperienceSection = () => {
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
-                        <img src={card.logoPath} alt="logo" className="w-12 h-12" />
+                        <img
+                          src={card.logoPath}
+                          alt="logo"
+                          className="w-12 h-12 sm:w-14 sm:h-16"
+                        />
                       </div>
                       <div className="font-semibold text-3xl">
                         <h1>{card.title}</h1>
