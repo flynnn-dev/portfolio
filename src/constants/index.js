@@ -115,31 +115,31 @@ const techStackImgs = [
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: "models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
+    modelPath: "models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
     name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
+    modelPath: "models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    modelPath: "models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
+    modelPath: "models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
@@ -151,7 +151,7 @@ const expCards = [
       "React is my primary frontend framework for building responsive and interactive web applications. I use component-based architecture, hooks, and modern development practices to create clean and maintainable user interfaces.",
     imgPath: "images/exp1.png",
     logoPath: "images/logo1.png",
-    title: "Frontend",
+    title: "Frontend Developer",
     date: "🗓️ May 2026 - Present",
     responsibilities: [
       "Built reusable and scalable UI components using React.",
@@ -164,7 +164,7 @@ const expCards = [
         "Laravel is the framework I use to build the backend of web applications. It helps me create secure, organized, and reliable systems for handling data, users, and website functionality.",
     imgPath: "images/exp2.png",
     logoPath: "images/logo2.png",
-    title: "Backend",
+    title: "Backend Developer",
     date: "🗓️ November 2025 - Present",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
