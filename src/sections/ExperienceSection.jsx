@@ -20,6 +20,7 @@ const ExperienceSection = () => {
         scrollTrigger: {
           trigger: card,
           start: "top 80%",
+          scrub: true,
         },
       });
     });
@@ -37,8 +38,20 @@ const ExperienceSection = () => {
           })
         }
       }
-
     })
+    gsap.utils.toArray(".expText ").forEach((text) => {
+      gsap.from(text, {
+        xPercent: 0,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: text,
+          start: "top 60%",
+          scrub: true,
+        },
+      });
+    });
   }, []);
   return (
     <section
