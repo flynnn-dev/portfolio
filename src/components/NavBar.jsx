@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import {useEffect} from 'react'
 import {navLinks} from "../constants/index.js";
 import {useState} from "react";
 
@@ -8,7 +8,7 @@ const NavBar = () => {
     useEffect(() => {
         const handleScroll = () => {
             const isScrolled = window.scrollY > 10;
-            setScroll(true);
+            setScroll(isScrolled);
         }
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
